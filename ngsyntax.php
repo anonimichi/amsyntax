@@ -1,12 +1,12 @@
 <?php
 /*
-NGS es una clase que ayuda a crear un bloque de codigo formateando el texto y agregando
+amsyntax es una clase que ayuda a crear un bloque de codigo formateando el texto y agregando
 resaltado de sintaxis de manera automatica en una pagina web.
 
 Modo de uso:
 -------------------------------------------------
 <?php
-require_once 'ngsyntax.php';
+require_once 'amsyntax.php';
 
 // Instanciar la clase
 $highlighter = new NGS();
@@ -37,9 +37,9 @@ RUST;
 echo $highlighter->syntax_on($codigoRust);
 ?>
 
-Creado por norGhost 30/03/2025
+Creado por anonimichi 30/03/2025
 */
-class NGS {
+class amsyntax {
 	// Por ahora solo he implementado el resaltado de sintaxis para RUST porque es el que estoy
 	// necesitando para crear mi blog... per facilmente puede adaptarse a otros lenguajes usando
 	// los diferentes arreglos que siguen aqui abajo.
