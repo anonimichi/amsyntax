@@ -1,10 +1,10 @@
-# NGSyntax
+# AMSyntax
 Simple clase de php para dar formato a codigo fuente en Rust, lo uso para crear los bloques de codigo de mi blog.
 
 # Modo de uso:
 ``` php
 <?php
-require_once 'ngsyntax.php';
+require_once 'amsyntax.php';
 
 // Instanciar la clase
 $highlighter = new NGS();
